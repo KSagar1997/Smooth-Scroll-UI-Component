@@ -23,7 +23,7 @@ npm install framer-motion react tailwindcss postcss autoprefixer
 ### Basic Usage
 
 ```jsx
-import SmoothScrollUI from './components/SmoothScrollUI';
+import SmoothScrollUI from "./components/SmoothScrollUI";
 
 function App() {
   return <SmoothScrollUI />;
@@ -44,9 +44,7 @@ Update the data arrays in the component:
 
 ```jsx
 // Change skills in StaggerSection
-const skills = [
-  "React", "Redux", "Tailwind"
-];
+const skills = ["React", "Redux", "Tailwind"];
 ```
 
 ### Color Scheme
@@ -55,9 +53,8 @@ Replace Tailwind color classes:
 
 ```jsx
 // Change theme
-className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900"
+className = "bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900";
 ```
-
 
 ## 🧩 Component Breakdown
 
@@ -65,24 +62,24 @@ className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900"
 
 1. **SmoothScrollUI** - Main wrapper component
 2. **ParallaxSection** - Demonstrates parallax scrolling
-3. **ScrollRevealTitle** - Letter-by-letter text animation  
+3. **ScrollRevealTitle** - Letter-by-letter text animation
 4. **ScrollRevealCard** - 3D card reveal animation
 5. **StaggerSection** - Grid with staggered item reveals
 
 ### Key Hooks Used
 
-- `useScroll`  
-- `useTransform`  
-- `useInView`  
-- `useAnimation` 
+- `useScroll`
+- `useTransform`
+- `useInView`
+- `useAnimation`
 
 ## 📱 Responsive Design
 
 All animations are responsive and work on:
-- Desktop 
+
+- Desktop
 - Tablet (768px - 1023px)
 - Mobile (320px - 767px)
-
 
 ## 📄 License
 
@@ -106,7 +103,7 @@ If you have questions or need help implementing:
 
 ## 🔗 Links
 
-- [Codesandbox.io Link](https://codesandbox.io/p/sandbox/wild-sea-pzx572)
+- [Codesandbox.io Link](https://codesandbox.io/p/sandbox/smooth-scroll-ui-component-s4jg33)
 - [Framer Motion Docs](https://www.framer.com/motion/)
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
